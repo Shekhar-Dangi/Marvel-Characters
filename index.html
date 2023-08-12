@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Character Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="search-container">
+      <input
+        type="text"
+        id="character-input"
+        placeholder="Search for Marvel character..."
+      />
+      <button id="search-button">Search</button>
+      <div class="suggestions-box" id="suggestions-box"></div>
+    </div>
+    <div class="character-container">
+      <div class="character-info">
+        <img
+          id="character-image"
+          src=""
+          alt="Character Image"
+          class="character-image"
+        />
+        <p id="character-name" class="character-name"></p>
+        <p id="character-description" class="character-description"></p>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
